@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VMS 표출 문구 검수</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="title-row">
+    <div>
+      <div class="page-title">VMS 표출 문구 검수 화면</div>
+      <div class="page-subtitle">표출 전 생성된 문구를 확인하는 용도입니다.</div>
+    </div>
+    <div class="status-wrap" id="status-badge"></div>
+  </div>
+
+  <div id="error-banner"></div>
+
+  <div class="select-row">
+    <select id="vms-select" aria-label="VMS 장비 선택"></select>
+    <button id="query-btn" type="button">↻ 문구 조회</button>
+  </div>
+
+  <div id="warning-banner"></div>
+
+  <div class="vms-screen" id="vms-screen"></div>
+
+  <div class="info-grid">
+    <div id="message-info"></div>
+    <div id="safety-checks"></div>
+  </div>
+
+  <div class="legend">ⓘ 색상:
+    <span class="legend-dot" style="background:#F7F7F7;"></span>흰색=일반정보
+    <span class="legend-dot" style="background:#FFD43B;"></span>노랑=주의·혼잡
+    <span class="legend-dot" style="background:#FF4B4B;"></span>빨강=경고·만차
+    <span class="legend-dot" style="background:#46D369;"></span>녹색=여유·진입 가능
+  </div>
+
+  <div class="result-time" id="result-time"></div>
+
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
