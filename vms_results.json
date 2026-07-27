@@ -1,0 +1,259 @@
+[
+  {
+    "result_id": "VMS_20260728_102503_001",
+    "vms_id": "VMS_001",
+    "vms_name": "옥천오거리 동측",
+    "vms_size": "6x10",
+    "line_count": 3,
+    "generated_at": "2026-07-28 10:25:03",
+    "prediction_base_time": "2026-07-28 10:25:00",
+    "prediction_target_time": "2026-07-28 10:45:00",
+    "parking_id": "PLOT000001",
+    "parking_name": "중앙시장 제1공영주차장",
+    "predicted_occupancy": 92.0,
+    "situation_code": "상태 3",
+    "situation_name": "만차 임박",
+    "header_text": "(AI 주차정보)",
+    "message_lines": [
+      [
+        {
+          "text": "최근 입차량 증가",
+          "color": "white"
+        }
+      ],
+      [
+        {
+          "text": "중앙시장 제1공영 ",
+          "color": "white"
+        },
+        {
+          "text": "현재 점유율 92%",
+          "color": "yellow"
+        }
+      ],
+      [
+        {
+          "text": "20분 후 만차 예상",
+          "color": "red"
+        }
+      ]
+    ],
+    "alternative_parking": "도심공영주차장",
+    "validation_status": "PASS",
+    "safety_checks": [
+      {
+        "code": "LENGTH",
+        "label": "글자 수·줄 수 통과",
+        "passed": true,
+        "detail": "6x10 규격 및 3개 본문 줄 기준"
+      },
+      {
+        "code": "PREDICTION",
+        "label": "예측 근거 있음",
+        "passed": true,
+        "detail": "20분 후 예측 이용률 92.0%"
+      },
+      {
+        "code": "ALTERNATIVE",
+        "label": "대체주차장 정상",
+        "passed": true,
+        "detail": "도심공영주차장 마스터 일치"
+      }
+    ],
+    "system_status": {
+      "code": "RUNNING",
+      "label": "AI 예측 자동 수행 중 · 5분 주기"
+    }
+  },
+  {
+    "result_id": "VMS_20260728_102003_001",
+    "vms_id": "VMS_001",
+    "vms_name": "옥천오거리 동측",
+    "vms_size": "6x10",
+    "line_count": 3,
+    "generated_at": "2026-07-28 10:20:03",
+    "prediction_base_time": "2026-07-28 10:20:00",
+    "prediction_target_time": "2026-07-28 10:40:00",
+    "parking_id": "PLOT000001",
+    "parking_name": "중앙시장 제1공영주차장",
+    "predicted_occupancy": 88.4,
+    "situation_code": "상태 2",
+    "situation_name": "혼잡",
+    "header_text": "(AI 주차정보)",
+    "message_lines": [
+      [
+        {
+          "text": "입차량 증가 추세",
+          "color": "white"
+        }
+      ],
+      [
+        {
+          "text": "중앙시장 제1공영 ",
+          "color": "white"
+        },
+        {
+          "text": "혼잡 예상",
+          "color": "yellow"
+        }
+      ],
+      [
+        {
+          "text": "도심공영 이용 권장",
+          "color": "orange"
+        }
+      ]
+    ],
+    "alternative_parking": "도심공영주차장",
+    "validation_status": "PASS",
+    "safety_checks": [
+      {
+        "code": "LENGTH",
+        "label": "글자 수·줄 수 통과",
+        "passed": true
+      },
+      {
+        "code": "PREDICTION",
+        "label": "예측 근거 있음",
+        "passed": true
+      },
+      {
+        "code": "ALTERNATIVE",
+        "label": "대체주차장 정상",
+        "passed": true
+      }
+    ],
+    "system_status": {
+      "code": "RUNNING",
+      "label": "AI 예측 자동 수행 중 · 5분 주기"
+    }
+  },
+  {
+    "result_id": "VMS_20260728_102504_002",
+    "vms_id": "VMS_002",
+    "vms_name": "강릉의료원 건너편",
+    "vms_size": "6x10",
+    "line_count": 3,
+    "generated_at": "2026-07-28 10:25:04",
+    "prediction_base_time": "2026-07-28 10:25:00",
+    "prediction_target_time": "2026-07-28 10:45:00",
+    "parking_id": "PLOT000007",
+    "parking_name": "도심공영주차장",
+    "predicted_occupancy": 47.3,
+    "situation_code": "상태 1",
+    "situation_name": "여유",
+    "header_text": "(AI 주차정보)",
+    "message_lines": [
+      [
+        {
+          "text": "주차 흐름 안정",
+          "color": "white"
+        }
+      ],
+      [
+        {
+          "text": "도심공영 ",
+          "color": "white"
+        },
+        {
+          "text": "여유 있음",
+          "color": "green"
+        }
+      ],
+      [
+        {
+          "text": "진입 가능",
+          "color": "green"
+        }
+      ]
+    ],
+    "alternative_parking": null,
+    "validation_status": "PASS",
+    "safety_checks": [
+      {
+        "code": "LENGTH",
+        "label": "글자 수·줄 수 통과",
+        "passed": true,
+        "detail": "6x10 규격 및 3개 본문 줄 기준"
+      },
+      {
+        "code": "PREDICTION",
+        "label": "예측 근거 있음",
+        "passed": true,
+        "detail": "20분 후 예측 이용률 47.3%"
+      },
+      {
+        "code": "PARKING_MASTER",
+        "label": "주차장명 마스터 일치",
+        "passed": true,
+        "detail": "PLOT000007"
+      }
+    ],
+    "system_status": {
+      "code": "RUNNING",
+      "label": "AI 예측 자동 수행 중 · 5분 주기"
+    }
+  },
+  {
+    "result_id": "VMS_20260728_102505_003",
+    "vms_id": "VMS_003",
+    "vms_name": "중앙시장 진입부",
+    "vms_size": "4x15",
+    "line_count": 3,
+    "generated_at": "2026-07-28 10:25:05",
+    "prediction_base_time": "2026-07-28 10:25:00",
+    "prediction_target_time": "2026-07-28 10:45:00",
+    "parking_id": "PLOT000002",
+    "parking_name": "중앙시장 제2공영주차장",
+    "predicted_occupancy": 84.7,
+    "situation_code": "상태 2",
+    "situation_name": "혼잡",
+    "header_text": "(AI 주차정보)",
+    "message_lines": [
+      [
+        {
+          "text": "중앙시장권 혼잡 증가",
+          "color": "yellow"
+        }
+      ],
+      [
+        {
+          "text": "제2공영 혼잡 예상",
+          "color": "orange"
+        }
+      ],
+      [
+        {
+          "text": "도심공영 이용 권장",
+          "color": "white"
+        }
+      ]
+    ],
+    "alternative_parking": "도심공영주차장",
+    "validation_status": "FAIL",
+    "safety_checks": [
+      {
+        "code": "LENGTH",
+        "label": "글자 수·줄 수 통과",
+        "passed": false,
+        "detail": "2번째 줄 글자 수가 장비 기준을 초과한 가상 사례"
+      },
+      {
+        "code": "PREDICTION",
+        "label": "예측 근거 있음",
+        "passed": true,
+        "detail": "20분 후 예측 이용률 84.7%"
+      },
+      {
+        "code": "ALTERNATIVE",
+        "label": "대체주차장 정상",
+        "passed": true,
+        "detail": "도심공영주차장 마스터 일치"
+      }
+    ],
+    "system_status": {
+      "code": "RUNNING",
+      "label": "AI 예측 자동 수행 중 · 5분 주기"
+    }
+  }
+]
